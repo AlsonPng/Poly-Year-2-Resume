@@ -1,2 +1,2 @@
-![image](./resume.png)
+![image](./resume.jpeg)
 
