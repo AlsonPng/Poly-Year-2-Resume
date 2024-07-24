@@ -1,10 +1,11 @@
 body {
   background: #e1e1ea;
   font-family: "Roboto";
-  margin: auto;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 0px;
+  margin: auto;
 }
+
 /**Left side CSS**/
 .left-box {
   float: left;
@@ -52,6 +53,7 @@ img {
   margin: 15px;
   padding: 10px;
   box-sizing: border-box;
+  background-color: #335cc5;
 }
 
 .objective-img {
@@ -127,13 +129,15 @@ img {
 }
 
 #job {
-  width: max-content;
+  width: 500px;
+  padding: 20px 30px 20px 30px;
+  margin: 0px;
 }
 
 .job-box {
   float: left;
   border: solid;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 0px 0px;
   box-sizing: border-box;
   margin: 0px 10px 0px 0px;
   padding: 10px 10px 10px 10px;
@@ -205,32 +209,47 @@ li.l1 {
   border-width: 1px;
   background-color: #335cc5;
   color: white;
-  margin: 10px 110px 10px 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 li.l2 {
   border: solid;
   border-width: 1px;
   background-color: #335cc5;
-  margin: 10px 130px 10px 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
   color: white;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 li.l3 {
   border: solid;
   border-width: 1px;
   background-color: #335cc5;
-  margin: 10px 0px 10px 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
   color: white;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 li.l4 {
   border: solid;
   border-width: 1px;
   background-color: #335cc5;
-  margin: 10px 90px 10px 0px;
-  padding: 0px 101px 0px 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
   color: white;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 .interest-item {
